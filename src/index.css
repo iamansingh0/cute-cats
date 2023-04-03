@@ -50,13 +50,12 @@ body {
   /* border: 1px solid red; */
   background-color: black;
   border-radius: 15px;
-  padding: 20px 0;
-
+  padding: 20px 10px;
 }
 
 .cat img {
-  height: 55vh;
-  /* width: 30vw; */
+  max-width: 80%;
+  border-radius: 15px;
 }
 
 .footer {
@@ -99,8 +98,6 @@ body {
   outline: none;
   border: none;
   display: flex;
-
-
 }
 
 .btn span {
