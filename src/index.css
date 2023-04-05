@@ -27,6 +27,7 @@ body {
   width: 80%;
   margin-left: 10%;
   margin-top: 5vh;
+  border: 1px solid green;
 }
 
 .cats {
@@ -47,7 +48,7 @@ body {
   justify-content: center;
   margin-top: 2vh;
   margin-bottom: 2vh;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   background-color: black;
   border-radius: 15px;
   padding: 20px 10px;
@@ -110,4 +111,38 @@ body {
   font-size: 2rem;
   color: white;
   cursor: pointer;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 1068px){
+  .cat {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 572px){
+  .container {
+    width: 96%;
+    margin-left: 2%;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .container {
+    width: 98%;
+  }
+  .cat {
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 15px 0;
+  }
+  .footer p {
+    font-size: 0.6rem;
+  }
+  .h2 {
+    font-size: 1.4rem;
+  }
 }
