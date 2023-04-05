@@ -27,7 +27,7 @@ body {
   width: 80%;
   margin-left: 10%;
   margin-top: 5vh;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .cats {
@@ -48,7 +48,7 @@ body {
   justify-content: center;
   margin-top: 2vh;
   margin-bottom: 2vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: black;
   border-radius: 15px;
   padding: 20px 10px;
