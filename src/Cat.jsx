@@ -16,7 +16,7 @@ const Cat = () => {
       }
       getData(url)
       setIsLoading(false)
-    }, 3000)
+    }, 3500)
   }, [])
 
   if (isLoading) {
